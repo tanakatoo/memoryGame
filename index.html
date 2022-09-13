@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="container">
+    <h1>Memory Game!</h1>
+    <label for="numberOfCards">How many pairs of cards would you like to play (5-10)?</label>
+    <input type="number" id="numberOfCards" min="5" placeholder="5">
+    <p id="error"></p>
+    <h3 id="bestScoreBoard">Best Score: </h3>
+    <button class="startGame">Play Memory Game!</button>
+    <div id="scoreBoard"><p id="bestScore">Best score: </p><p>Your score: <span id="yourScore"></span></p></div>
+    <div id="game" class="row">
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

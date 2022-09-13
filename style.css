@@ -1,0 +1,67 @@
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
+
+button{
+  font-size: xx-large;
+  padding: 30px;
+  border: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.row{
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.hide{
+  display: none;
+}
+
+#scoreboard p{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+
+}
+
+#numberOfCards{
+  padding:10px;
+  border:none;
+  border-bottom: 2px solid black;
+  font-size: 20px;
+  width: 100px;
+  margin: 20px 0 5px 0;
+}
+
+#error{
+  font-size: 10px;
+  font-style: italic;
+  color: red;
+}
